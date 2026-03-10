@@ -20,13 +20,6 @@ The optimized layout highlights the advantages of GDI for **low-power VLSI appli
 ---
 
 ## 🏛 Architecture
-```mermaid
-flowchart TD
-    A[Input Operands] --> B[Partial Product Generation (GDI AND Gates)]
-    B --> C[Adder Matrix (GDI XOR + Adders)]
-    C --> D[Carry-Save Accumulation]
-    D --> E[Final Output Product]
-```
 - **Braun Multiplier**: Array-based structure of AND gates and adders for unsigned multiplication.  
 - **GDI Technology**: Implements logic gates with fewer transistors → reduced power and area.  
 - **Design Flow**:  
@@ -37,7 +30,7 @@ flowchart TD
  
 ![Alt Text](images/Picture1.png)
 
-![Alt Text](images/block_diagram.png)
+![Alt Text](images/block_diagram.jpg)
 
 ---
 
